@@ -1,10 +1,10 @@
-// In this code we have implements a special type of interface called Runnable
+package Threads;// In this code we have implements a special type of interface called Runnable
 // previously we extend thread class and convert the objects into threads
 
 // nut as we know java doesn't  support multiple inheritance we used an interface to implement runnable class
 
 
-class AB implements Runnable
+class ABA implements Runnable
 {
     public void run() // we have written a run methode to execute the string
     {
@@ -29,7 +29,7 @@ public class Threads_Runnable_Keyword
 {
     public static void main(String[] args) {
 
-        Runnable obj1 = new AB();  // firstly we have created objects of the class using the runnable interface
+        Runnable obj1 = new ABA();  // firstly we have created objects of the class using the runnable interface
         Runnable obj2 = new BC();   // if we navigate inside the Runnable interface we can see a special methode called run
 
         Thread t1 = new Thread(obj1);

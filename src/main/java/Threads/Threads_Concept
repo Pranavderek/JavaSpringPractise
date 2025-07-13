@@ -1,0 +1,49 @@
+Threads is a special type of concept which is used in dealing with multi tasking
+
+The System consists of many software's running at same time but our operating system is managing smoothly
+because of the concept of threads.
+
+In the program Regular_loop_code:
+
+I have written new classes and added a methode of same name and printed the values of the statements by declaring
+a loop and the execution happened regularly task by task
+
+our java have the intelligence to execute tasks one after the another but it is time consuming as it can handle one task
+at a time
+
+**** so we are using a concept of java thread to execute multiple threads at a single time and execute parallel execution
+
+Now follow the Threads.Java Code
+
+key points to remember are :
+
+1) Threads are the special concept which helps in archiving multi-tasking
+2) for every class we want to archive multi tasking we need to extend a Thread class
+3) To archive multi tasking we need to write the methode name as run() so that the java machine understand that
+from where we need to execute the code
+4) In the main methode when we want to call a methode we need to use a special methode to called start()
+5)  The Syntax is written as --->   obj1.start(),obj2.start()  and so on which helps in archiving multi tasking
+
+
+refer to the Thread_concept.java class to understand the flow of the program and also go through the Regular code
+concept to understand the difference
+
+
+**** one important key concept is that if we are executing multiple threads at single time the
+System executes in a particular time laps and buffer time that is the reason we see some difference
+in the code execution.
+
+
+*** by the help of the thread concept we have archived the multi tasking.
+
+
+
+
+
+
+
+
+
+
+
+

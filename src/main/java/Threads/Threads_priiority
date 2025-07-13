@@ -1,0 +1,5 @@
+Thread priority is a concept in which we have multiple threads and we are trying to execute multiple threads at
+single time but we are trying to give priority of one thread more
+
+to archive this concept we are doing this in this way:
+

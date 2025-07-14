@@ -1,0 +1,32 @@
+java Array List
+
+** Array list is a special type of class which is implemented from collections class
+** To access the array list concept we need to import java.util package
+
+To initialise the arraylist we need to follow some steps:
+
+    step 1 : Create an object from collections class like
+             Collections nums = new Collections();
+
+    step 2 : To make an arraylist firstly we need to get the arraylist collection
+    ArrayList<Integer> name = new ArrayList<Integer>();
+
+
+
+    - add(E e): Adds an element to the end.
+    - add(int index, E element): Inserts an element at a specific index.
+    - get(int index): Retrieves the element at the specified index.
+    - set(int index, E element): Replaces the element at the index.
+    - remove(int index): Removes the element at the index.
+    - remove(Object o): Removes the first occurrence of the object.
+    - size(): Returns the number of elements.
+    - clear(): Removes all elements.
+    - contains(Object o): Checks if the list contains an element.
+    - indexOf(Object o): Returns index of first occurrence.
+    - lastIndexOf(Object o): Index of last occurrence.
+    - sort() helps to sort the code
+
+
+    ** These are the method's we can use for accessing the modifying the data in the arraylist
+
+

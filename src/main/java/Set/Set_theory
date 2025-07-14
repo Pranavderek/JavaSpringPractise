@@ -1,0 +1,36 @@
+**** Sets or hashsets in java are special concepts which are used to store data with mre tha one variable
+     but the values should not contain duplicates.
+
+*** to access the java set we need to import java.util.set or import java.util.*;
+
+**** In the sets also we can add the add the values using the add() methode
+
+**** set prints the value without any specific order, It doesn't have indexing option
+
+      Example :  [10,20,30] --> printing the values as 20 -> 30 -> 10
+      if we by mistake add any duplicate values it will not print those values
+
+
+Methods that are used in the set or Hashset are :
+
+        - add(E e)
+        Adds the specified element to the set if it's not already present.
+        - remove(Object o)
+        Removes the specified element if it exists in the set.
+        - contains(Object o)
+        Checks if the set contains the given element.
+        - isEmpty()
+        Returns true if the set contains no elements.
+        - size()
+        Returns the number of elements in the set.
+        - clear()
+        Removes all elements from the set.
+        - iterator()
+        Returns an iterator over the elements.
+
+
+
+
+
+
+
